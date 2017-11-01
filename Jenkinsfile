@@ -1,5 +1,7 @@
 #!groovy
 
 node {
-    echo "hello from pipeline"
+    stage('Build') {
+       echo "hello from pipeline"
+    }
 }
